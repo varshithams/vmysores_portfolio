@@ -1,10 +1,10 @@
-# Vishvaas Vasudeva Rao - Portfolio
+# Varshitha Mysore Suresh - Portfolio
 
-A modern, responsive portfolio website showcasing my expertise in Quality Engineering, Test Automation, and Software Development.
+A modern, responsive portfolio website showcasing my expertise in Software Development, Cloud Architecture, and Full-Stack Engineering.
 
 ## Live Demo
 
-[View Live Portfolio](https://vishvaas-portfolio.netlify.app) 
+[View Live Portfolio](https://vmysores.netlify.app) 
 
 ## Tech Stack
 
@@ -15,7 +15,7 @@ A modern, responsive portfolio website showcasing my expertise in Quality Engine
 - **UI Components:** [Radix UI](https://www.radix-ui.com/) - Low-level UI primitives
 - **Theme:** [next-themes](https://github.com/pacocoursey/next-themes) - Dark/light mode support
 - **Language:** TypeScript for type safety
-- **Deployment:** Netlify with CI/CD
+- **Deployment:** Netlify with static site generation
 
 ## Features
 
@@ -61,8 +61,8 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Vishvaas02/vishvaas_portfolio.git
-   cd vishvaas_portfolio
+   git clone https://github.com/varshithams/vmysores_portfolio.git
+   cd vmysores_portfolio
    ```
 
 2. **Install dependencies**
@@ -87,45 +87,42 @@ src/
 
 ## About Me
 
-I'm a **Quality Engineering & Automation Specialist** with a Master's degree in Engineering from San Jose State University. My expertise spans:
+I'm a **Software Development Engineer** with a Master's degree in Information Systems from Carnegie Mellon University. My expertise spans:
 
-- **Test Automation** - Selenium, Playwright, Appium, PyTest
-- **CI/CD & DevOps** - Jenkins, GitHub Actions, Docker, Azure DevOps
-- **Programming** - Python, JavaScript, Java, C/C++
-- **Frontend Development** - React, Next.js, Tailwind CSS
-- **AI & Machine Learning** - OpenAI API, LangChain, XGBoost
+- **Full-Stack Development** - React, TypeScript, Next.js, Node.js
+- **Cloud & DevOps** - AWS (Lambda, Step Functions, DynamoDB, S3, EC2), CI/CD
+- **Backend Technologies** - Python, Java, RESTful APIs, Microservices
+- **Databases** - PostgreSQL, MySQL, MongoDB, DynamoDB
+- **Tools & Frameworks** - Docker, Jenkins, Git, Terraform
 
 ## Professional Experience
 
-- **SDET** at Radian Group (Jun 2025 - Present)
-- **Quality Engineering Intern** at Affinity Solutions (Jun 2024 - Aug 2024)
-- **Software QA Engineer** at Cognizant (Mar 2021 - Aug 2023)
+- **Software Development Engineer** at Amazon (Feb 2025 - Present)
+- **Software Development Engineer Intern** at Amazon (May 2024 - Aug 2024)
+- **Business Technology Analyst** at Deloitte (Aug 2021 - Jul 2023)
 
-## Featured Projects
+## Leadership Journey
 
-1. **Multi-Agent LLM for Reducing Unsheltered Homelessness** - ACMLC 2025
-2. **Restaurant Recommender Android App** - Location-based recommendations
-3. **AI-Powered Content Generation Platform** - Automated social media content
-4. **Streamlining Splitwise UI/UX Transformation** - User experience redesign
+- **National Trainer** at Junior Chamber International (2022 - Present)
+- **CEO** at Capital Grains, Carnegie Mellon University (Feb 2024 - Dec 2024)
+- **President** at JCI Mysore Brindavan (2022 - 2023)
 
 ## Contact
 
-- **Email:** [vishvaasgv@gmail.com](mailto:vishvaasgv@gmail.com)
-- **LinkedIn:** [linkedin.com/in/vishvaasv](https://www.linkedin.com/in/vishvaasv/)
-- **GitHub:** [github.com/Vishvaas02](https://github.com/Vishvaas02)
+- **Email:** [varshitha.ms03@gmail.com](mailto:varshitha.ms03@gmail.com)
+- **LinkedIn:** [linkedin.com/in/varshithams](https://www.linkedin.com/in/varshithams/)
+- **GitHub:** [github.com/varshithams](https://github.com/varshithams/)
 
-## Customization
+## Deployment
 
-To customize this portfolio for your own use:
+This portfolio is deployed as a static site on Netlify:
 
-1. **Update personal information** in the component files
-2. **Modify the color scheme** in `tailwind.config.js`
-3. **Add your own projects** in `src/components/sections/projects.tsx`
-4. **Update skills** in `src/components/sections/skills.tsx`
-5. **Configure contact form** in Netlify dashboard
+```bash
+npm run build
+```
 
+The build output will be in the `out` directory, which can be deployed to any static hosting service.
 
 ---
 
-**Star this repository** if you found it helpful!
-
+Built with ❤️ by Varshitha Mysore Suresh
